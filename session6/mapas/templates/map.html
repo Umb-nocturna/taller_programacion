@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ header|safe }}
+    </head>
+    <body>
+        <h1>Embed folium map in HTML page</h1>
+        {{ body_html|safe }}
+        <h3>This map is embeded in a flask server web page !</h3>
+        <script>
+            {{ script|safe }}
+        </script>
+    </body>
+</html>

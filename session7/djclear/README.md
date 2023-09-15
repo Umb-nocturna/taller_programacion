@@ -8,7 +8,7 @@
 2. Crear el proyecto:
     ```
     django-admin startproject <miproyecto> .  #Linux - mac
-    django-admin.exe startproject <miproyecto> .  #win
+    python -m django startproject <miproyecto> .  #win
     ```
 
 3. se crea el proyecto dentro de la carpeta donde me encuentro. 

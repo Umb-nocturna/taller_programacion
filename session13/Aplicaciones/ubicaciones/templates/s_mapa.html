@@ -1,0 +1,22 @@
+{% extends "layouts/base.html" %}
+
+{% load static %}
+
+{% block title %}Sitios de Interes{% endblock %}
+
+{% block content %}
+ 
+    <h2>Mapa</h2>
+    {{ map|safe }}
+    <hr>
+    <ul>
+        {% for loc in locations %}
+            <li>{{ loc.name }} ( {{ loc.address }} )</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
+
+
+
+

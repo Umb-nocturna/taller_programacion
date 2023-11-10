@@ -677,7 +677,9 @@ from rest_framework.documentation import include_docs_urls
 13. Agregamos el Schema para poder visualizar la documentacion. En el "settigs.py"
 
 
-
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+}
 
 
 
